@@ -8,11 +8,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from pprint import pprint
 
-
 Base = declarative_base()
-engine = create_engine('sqlite:///metafiles.sqlite')
-Base.metadata.bind = engine
-
 class File(Base):
         __tablename__ = 'files'
         # Here we define columns for the table person
@@ -22,27 +18,29 @@ class File(Base):
         file_path = Column(String(1024), nullable=False)
 
 
-def createFile(name, file_path):
-    # Bind the engine to the metadata of the Base class so that the
-    # declaratives can be accessed through a DBSession instance
-
-    DBSession = sessionmaker(bind=engine)
-    session = DBSession()
-    new_file = File(name=name, file_path=file_path)
-    session.add(new_file)
-    session.commit()
-
-
-
-def getListOfFiles():
+class DatabaseHandler():
+    engine = create_engine('sqlite:///metafiles.sqlite')
     Base.metadata.bind = engine
     DBSession = sessionmaker(bind=engine)
     session = DBSession()
-    files = session.query(File).all()
-    return files
+
+    def createFile(self, name, file_path):
+        # Bind the engine to the metadata of the Base class so that the
+        # declaratives can be accessed through a DBSession instance
+        new_file = File(name=name, file_path=file_path)
+        self.session.add(new_file)
+        self.session.commit()
+
+    def deleteFile(self, file):
+        self.session.delete(file)
+        self.session.commit()
+
+    def getListOfFiles(self):
+        files = self.session.query(File).all()
+        return files
 
 
-def createDatabase():
-    # Create all tables in the engine. This is equivalent to "Create Table"
-    # statements in raw SQL.
-    Base.metadata.create_all(engine)
+    def createDatabase(self):
+        # Create all tables in the engine. This is equivalent to "Create Table"
+        # statements in raw SQL.
+        Base.metadata.create_all(self.engine)
