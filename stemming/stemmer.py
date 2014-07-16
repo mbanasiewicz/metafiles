@@ -37,4 +37,5 @@ def stem_list(stems_list):
     set_of_stems = set()
     for stem_line in output:
         set_of_stems.add(stem_line.split("\t")[1])
+    print(set_of_stems)
     return [stem for stem in set_of_stems]

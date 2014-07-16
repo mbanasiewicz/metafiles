@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search_test.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search_test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="355" max-vertical-offset="3060">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="3060">
+              <caret line="33" column="349" selection-start-line="33" selection-start-column="349" selection-end-line="33" selection-end-column="349" />
               <folding>
                 <element signature="e#24#49#0" expanded="true" />
               </folding>
@@ -55,25 +55,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchDocuments.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SearchDocuments.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search_logic/SearchDocuments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.423077" vertical-offset="1963" max-vertical-offset="2595">
-              <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.71202534" vertical-offset="735" max-vertical-offset="2595">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lsa.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/transform/lsa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,9 +70,21 @@
       <file leaf-file-name="__builtin__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/__builtin__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="49701" max-vertical-offset="77265">
-              <caret line="3328" column="8" selection-start-line="3328" selection-start-column="8" selection-end-line="3328" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="30696" max-vertical-offset="77265">
+              <caret line="2061" column="8" selection-start-line="2061" selection-start-column="8" selection-end-line="2061" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1357" max-vertical-offset="2070">
+              <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,28 +92,28 @@
       <file leaf-file-name="stemmer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stemming/stemmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/transform/tfidf.py">
+      <file leaf-file-name="resources.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/pip-1.4.1-py2.7.egg/pip/vendor/distlib/resources.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="4485">
+              <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transform.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/transform/transform.py">
+      <file leaf-file-name="database.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -151,17 +151,17 @@
         <option value="$PROJECT_DIR$/stemmer/__init__.py" />
         <option value="$PROJECT_DIR$/stemming/stem.sh" />
         <option value="$PROJECT_DIR$/search_window.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/defines.py" />
         <option value="$PROJECT_DIR$/data/polish.stop" />
         <option value="$PROJECT_DIR$/search/parser.py" />
         <option value="$PROJECT_DIR$/search/vector_space.py" />
-        <option value="$PROJECT_DIR$/stemming/stemmer.py" />
         <option value="$PROJECT_DIR$/search/transform/lsa.py" />
         <option value="$PROJECT_DIR$/logic/__init__.py" />
         <option value="$PROJECT_DIR$/logic/SearchDocuments.py" />
-        <option value="$PROJECT_DIR$/search_logic/SearchDocuments.py" />
         <option value="$PROJECT_DIR$/search_test.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/stemming/stemmer.py" />
+        <option value="$PROJECT_DIR$/search_logic/SearchDocuments.py" />
       </list>
     </option>
   </component>
@@ -289,7 +289,7 @@
       <recent name="$PROJECT_DIR$/stop" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.search_test">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="stem.sh (1)" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -518,8 +518,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.search_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.search_test" />
         <item index="2" class="java.lang.String" itemvalue="Python.vector_space" />
         <item index="3" class="java.lang.String" itemvalue="Python.stemmer" />
       </list>
@@ -589,13 +589,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/PySide/QtCore/QFileSystemWatcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="855">
-          <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="690">
@@ -843,20 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1665">
-          <caret line="80" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6543909" vertical-offset="1" max-vertical-offset="675">
-          <caret line="45" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -876,22 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3030">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="49701" max-vertical-offset="77265">
-          <caret line="3328" column="8" selection-start-line="3328" selection-start-column="8" selection-end-line="3328" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stemming/stemmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -946,22 +909,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search_logic/SearchDocuments.py">
+    <entry file="file:///Library/Python/2.7/site-packages/pip-1.4.1-py2.7.egg/pip/vendor/distlib/resources.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.423077" vertical-offset="1963" max-vertical-offset="2595">
-          <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1431" max-vertical-offset="4485">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-2125986627/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30696" max-vertical-offset="77265">
+          <caret line="2061" column="8" selection-start-line="2061" selection-start-column="8" selection-end-line="2061" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1357" max-vertical-offset="2070">
+          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#24#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stemming/stemmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="355" max-vertical-offset="3060">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="3060">
+          <caret line="33" column="349" selection-start-line="33" selection-start-column="349" selection-end-line="33" selection-end-column="349" />
           <folding>
             <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_logic/SearchDocuments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71202534" vertical-offset="735" max-vertical-offset="2595">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

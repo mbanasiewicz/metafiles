@@ -49,6 +49,7 @@ class SearchDocumets:
         self.documents_list = documents_list
         self.documents_without_chars = self.remove_unwanted_chars()
         self.documents_words = self.split_texts_to_words()
+        self.documents_words = self.filter_stopwords()
         self.document_stems = self.stem_all_words()
         self.unique_list_of_stems = self.get_unique_list_of_stems()
         self.search_matrix = self.build_search_matrix()
@@ -163,6 +164,5 @@ class SearchDocumets:
         for mtx_col in  range(self.search_matrix.shape[1]):
             col = self.search_matrix[:, mtx_col]
             q_vect = matrix(query_v)
-            # col = col.reshape(col.shape[1], col.shape[0])
-        results.append(_cosine(q_vect, col))
+            results.append(_cosine(q_vect, col))
         return results

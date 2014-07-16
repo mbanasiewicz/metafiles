@@ -6,7 +6,7 @@ from multiprocessing.pool import ThreadPool
 from stemming import stemmer
 from database import *
 import sys, os, defines, threading, file_parser
-
+from search_logic.SearchDocuments import SearchDocumets
 
 class MetaFilesMainDialog(QDialog):
 
@@ -95,7 +95,7 @@ class MetaFilesMainDialog(QDialog):
           dialog_text = "Are you sure you want to add " + file_info.fileName() + "?"
           reply = QMessageBox.question(self, None, dialog_text, QMessageBox.Yes | QMessageBox.No)
           if reply == QMessageBox.Yes:
-              self.fileParser.getFileTags(file_info)
+              # self.fileParser.getFileTags(file_info)
               self.databaseHandler.createFile(file_info.fileName(), file_info.path())
               self.populateListView()
       else:
@@ -112,7 +112,13 @@ class MetaFilesMainDialog(QDialog):
           self.list.takeItem(self.list.indexFromItem(list_item))
 
   def onSearchClicked(self):
-      print(self.lineEdit.text())
+    files_list = self.databaseHandler.getListOfFiles()
+    files_contents = []
+    for file in files_list:
+        file_url = file.file_path + '/' + file.name
+        files_contents.append(open(file_url, 'r').read())
+    search = SearchDocumets(files_contents)
+    print search.search(str(self.lineEdit.text()))
 
 
    
