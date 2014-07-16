@@ -16,6 +16,7 @@ class MetaFilesMainDialog(QDialog):
     self.setWindowTitle("MetaFiles")
 
     # Init dialog
+    self.createSearchBox()
     self.createFilesListLayout()
     self.createControls()
 
@@ -32,9 +33,20 @@ class MetaFilesMainDialog(QDialog):
 
     # Layout
     mainLayout = QVBoxLayout()
+    mainLayout.addWidget(self.searchBox)
     mainLayout.addWidget(self.horizontalGroupBox)
     mainLayout.addWidget(self.controlsGroupBox)
     self.setLayout(mainLayout)
+
+  def createSearchBox(self):
+    self.searchBox = QGroupBox("Search field")
+    layout = QHBoxLayout()
+    self.lineEdit = QLineEdit()
+    layout.addWidget(self.lineEdit)
+    button = QPushButton("Search")
+    button.clicked.connect(self.onSearchClicked)
+    layout.addWidget(button)
+    self.searchBox.setLayout(layout)
 
   def populateListView(self):
     files = self.databaseHandler.getListOfFiles()
@@ -64,16 +76,12 @@ class MetaFilesMainDialog(QDialog):
     removeFileButton = QPushButton("Remove selected file")
     removeFileButton.clicked.connect(self.onRemovedSelected)
 
-    searchFilesButton = QPushButton("Search files")
-    searchFilesButton.clicked.connect(self.onSearchFilesSelected)
-
     exitButton = QPushButton("Exit")
     exitButton.clicked.connect(self.close)
 
     layout.addWidget(addFileButton)
     layout.addWidget(removeFileButton)
     layout.addWidget(exitButton)
-    layout.addWidget(searchFilesButton)
 
     self.controlsGroupBox.setLayout(layout)
 
@@ -103,9 +111,8 @@ class MetaFilesMainDialog(QDialog):
           self.databaseHandler.deleteFile(file_object)
           self.list.takeItem(self.list.indexFromItem(list_item))
 
-
-  def onSearchFilesSelected(self):
-      print "search files"
+  def onSearchClicked(self):
+      print(self.lineEdit.text())
 
 
    
@@ -116,5 +123,4 @@ def main():
     return app.exec_()
 
 if __name__ == '__main__':
-    print stemmer.get_stem("pajęczyny")
-  # main()
+    main()
