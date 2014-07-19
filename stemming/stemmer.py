@@ -36,6 +36,11 @@ def stem_list(stems_list):
     output = instream(", ".join(stems_list)).p(process_call).stdout().split("\n")[:-2]
     set_of_stems = set()
     for stem_line in output:
-        set_of_stems.add(stem_line.split("\t")[1])
-    print(set_of_stems)
+        stem_output = stem_line.split("\t")
+        stem = ''
+        if stem_output[1] == '-':
+            stem = stem_output[0]
+        else:
+            stem = stem_output[1]
+        set_of_stems.add(stem)
     return [stem for stem in set_of_stems]
